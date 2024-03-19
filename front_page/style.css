@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px;
+  padding: 20px;
+  /* background-color: navy; */
+}
+.nav-ul {
+  display: flex;
+  gap: 10px;
+  color: navy;
+}
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  transition: all 0.3s;
+  transform: translateY(-2px);
+}
+
+.front-main {
+  display: flex;
+  margin: 50px 50px;
+}
+img {
+  width: 400px !important;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.detail {
+  padding: 20px;
+}
+h1 {
+  color: navy;
+}
+
+footer {
+  margin-bottom: 0;
+  background-color: navy;
+  color: white;
+  display: flex;
+  padding: 20px;
+
+  justify-content: space-around;
+}
+.text-white {
+  color: white !important;
+}
+
+.footer-ul {
+  gap: 50px;
+}
+
+.login-btn {
+  width: 100%;
+
+  padding: 10px 25px;
+  /* width: 100%; */
+  background-color: navy;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+.login-inps,
+.login-main {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+}
+input:focus {
+  outline: navy 1px solid;
+}
+button:hover {
+  background-color: rgb(48, 48, 141);
+  cursor: pointer;
+}
+
+.register-btn{
+    margin-top: 10px;
+  display: grid;
+  justify-content: center;
+  border:1px solid navy;
+  background-color: white;
+  padding: 10px 25px;
+  width: 100%;
+
+}
+.register-btn:hover{
+    color:white;
+
+}
